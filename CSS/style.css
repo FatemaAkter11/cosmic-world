@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@700&family=Poppins&family=Roboto:ital,wght@1,100&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
+}
+body{
     font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url(../images/cloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+}
+.navigation li{
+    margin: 15px;
+}
+.navigation li a{
+    color: white;
+    font-weight: 600;
 }
