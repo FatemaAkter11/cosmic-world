@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* navigation part */
 header{
     background-image: url(../images/cloud.png);
     background-repeat: no-repeat;
@@ -22,4 +23,47 @@ header{
 .navigation li a{
     color: white;
     font-weight: 600;
+}
+
+/* banner part */
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-left h1{
+    color: #fff;
+    font-size: 45px;
+}
+.banner-left p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.highlight{
+    color: #FF008E;
+}
+.primary-btn{
+    color: #fff;
+    border: 0;
+    padding: 10px 12px;
+    background-image: linear-gradient(90deg, #c20c70,#fc67b9);
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform:uppercase; 
+    cursor: pointer;
+    box-shadow: 0 3px 0 #1d0211;
+    position: relative;
+    top: 0;
+    outline: 0;
+}
+.primary-btn:active{
+    top: 5px;
+    box-shadow: 0 3px 0 #4d052c;
+}
+.container{
+    overflow: hidden;
+}
+.banner-right img{
+    height: 28rem;
 }
