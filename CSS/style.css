@@ -98,3 +98,10 @@ header{
     color: #FF008E;
     text-decoration: none;
 }
+/* gallery part started  */
+.photo img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border: 3px solid #fc67b9;
+}
