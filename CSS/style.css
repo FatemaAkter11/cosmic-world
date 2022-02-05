@@ -105,3 +105,27 @@ header{
     object-fit: cover;
     border: 3px solid #fc67b9;
 }
+
+/* contact part started */
+.contact-left img{
+    width: 100%;
+}
+.text-field{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: inherit;
+    border: 1px solid #fc67b9;
+    outline: 0;
+}
+.submit-btn{
+    color: #fff;
+    border: 0;
+    padding: 5px 10px;
+    background-image: linear-gradient(90deg, #c20c70,#fc67b9);
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform:uppercase; 
+    cursor: pointer;
+}
