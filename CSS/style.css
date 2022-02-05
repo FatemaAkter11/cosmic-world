@@ -67,3 +67,34 @@ header{
 .banner-right img{
     height: 28rem;
 }
+/* feature part started */
+.section-title h2{
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 2px solid #FF008E;
+    margin: 50px 0;
+    text-transform: uppercase;
+}
+.card{
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 300px;
+    padding: 30px;
+}
+.card .card-icon{
+    background-color: #FF008E;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    color: #fff;
+}
+.card h3{
+    color: #FF008E;
+    font-size: 25px;
+    font-weight: 800;
+}
+.read-btn{
+    color: #FF008E;
+    text-decoration: none;
+}
